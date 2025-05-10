@@ -44,3 +44,25 @@ h1 {
   0% { transform: translateY(0); }
   100% { transform: translateY(-100%); }
 }
+
+.sticky-header, .sticky-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  background-color: #ffb6c1;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1000;
+  font-family: 'Pacifico', cursive;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.sticky-header {
+  top: 0;
+}
+
+.sticky-footer {
+  bottom: 0;
+}
