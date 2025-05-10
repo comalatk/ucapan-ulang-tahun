@@ -10,7 +10,7 @@ body {
   padding: 50px 20px;
   max-width: 800px;
   margin: auto;
-  animation: scrollDown 90s ease-in-out infinite; /* Durasi lebih lama dan smooth */
+  animation: scrollDown 120s ease-in-out infinite; /* Durasi lebih lama dan smooth */
 }
 
 h1 {
