@@ -1,9 +1,16 @@
 
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom, #fff0f5, #ffe6f0);
-  overflow-x: hidden;
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.greetings p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #444;
+}
+
 }
 
 .wrapper {
