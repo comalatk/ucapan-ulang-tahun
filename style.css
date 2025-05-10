@@ -1,23 +1,16 @@
 
 body {
-  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
-.greetings p {
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.4rem;
-  line-height: 1.8;
-  margin-bottom: 30px;
-  text-align: center;
-  color: #444;
-}
-
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #fff0f5, #ffe6f0);
+  overflow-x: hidden;
 }
 
 .wrapper {
   padding: 50px 20px;
   max-width: 800px;
   margin: auto;
-  animation: scrollDown 120s ease-in-out infinite; /* Durasi lebih lama dan smooth */
+  animation: scrollDown 90s ease-in-out infinite; /* Durasi lebih lama dan smooth */
 }
 
 h1 {
